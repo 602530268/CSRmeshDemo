@@ -1,0 +1,17 @@
+//
+// Copyright 2016 Qualcomm Technologies International, Ltd.
+//
+
+/* Common strings */
+
+"warning"                   =   "Warning!";
+"unknownError"              =   "An Unknown error occurred.";
+"internetUnavailbleAlert"   =   "No internet connection.Please try after connecting to a network";
+
+//Events Creation View
+"Configuration"             =   "Configuration";
+"Devices"                   =   "Devices";
+"Tap to deactivate the event" =     "Tap to deactivate the event";
+"Event on"                  =   "Event on";
+"Repeat"                    =   "Repeat";
+"Event Name"                =   "Event Name";

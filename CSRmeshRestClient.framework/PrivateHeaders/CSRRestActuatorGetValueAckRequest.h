@@ -1,0 +1,110 @@
+/*!
+    Copyright [2015] Qualcomm Technologies International, Ltd.
+*/
+/* Note: this is an auto-generated file. */
+
+
+#import <Foundation/Foundation.h>
+#import "CSRRestBaseObject.h"
+
+
+/*!
+    Request Object for GetValueAck API for the Actuator model
+*/
+
+@interface CSRRestActuatorGetValueAckRequest : CSRRestBaseObject
+
+
+/*!
+    Actuator type. The Type field is a 16-bit value that determines the actuator type.
+*/
+ typedef NS_OPTIONS(NSInteger, CSRRestActuatorGetValueAckRequestTypeEnum) {
+  CSRRestActuatorGetValueAckRequestTypeEnumunknown,
+  CSRRestActuatorGetValueAckRequestTypeEnuminternal_air_temperature,
+  CSRRestActuatorGetValueAckRequestTypeEnumexternal_air_temperature,
+  CSRRestActuatorGetValueAckRequestTypeEnumdesired_air_temperature,
+  CSRRestActuatorGetValueAckRequestTypeEnuminternal_humidity,
+  CSRRestActuatorGetValueAckRequestTypeEnumexternal_humidity,
+  CSRRestActuatorGetValueAckRequestTypeEnumexternal_dewpoint,
+  CSRRestActuatorGetValueAckRequestTypeEnuminternal_door,
+  CSRRestActuatorGetValueAckRequestTypeEnumexternal_door,
+  CSRRestActuatorGetValueAckRequestTypeEnuminternal_window,
+  CSRRestActuatorGetValueAckRequestTypeEnumexternal_window,
+  CSRRestActuatorGetValueAckRequestTypeEnumsolar_energy,
+  CSRRestActuatorGetValueAckRequestTypeEnumnumber_of_activations,
+  CSRRestActuatorGetValueAckRequestTypeEnumfridge_temperature,
+  CSRRestActuatorGetValueAckRequestTypeEnumdesired_fridge_temperature,
+  CSRRestActuatorGetValueAckRequestTypeEnumfreezer_temperature,
+  CSRRestActuatorGetValueAckRequestTypeEnumdesired_freezer_temperature,
+  CSRRestActuatorGetValueAckRequestTypeEnumoven_temperature,
+  CSRRestActuatorGetValueAckRequestTypeEnumdesired_oven_temperature,
+  CSRRestActuatorGetValueAckRequestTypeEnumseat_occupied,
+  CSRRestActuatorGetValueAckRequestTypeEnumwashing_machine_state,
+  CSRRestActuatorGetValueAckRequestTypeEnumdish_washer_state,
+  CSRRestActuatorGetValueAckRequestTypeEnumclothes_dryer_state,
+  CSRRestActuatorGetValueAckRequestTypeEnumtoaster_state,
+  CSRRestActuatorGetValueAckRequestTypeEnumcarbon_dioxide,
+  CSRRestActuatorGetValueAckRequestTypeEnumcarbon_monoxide,
+  CSRRestActuatorGetValueAckRequestTypeEnumsmoke,
+  CSRRestActuatorGetValueAckRequestTypeEnumwater_level,
+  CSRRestActuatorGetValueAckRequestTypeEnumhot_water_temperature,
+  CSRRestActuatorGetValueAckRequestTypeEnumcold_water_temperature,
+  CSRRestActuatorGetValueAckRequestTypeEnumdesired_water_temperature,
+  CSRRestActuatorGetValueAckRequestTypeEnumcooker_hob_back_left_state,
+  CSRRestActuatorGetValueAckRequestTypeEnumdesired_cooker_hob_back_left_state,
+  CSRRestActuatorGetValueAckRequestTypeEnumcooker_hob_front_left_state,
+  CSRRestActuatorGetValueAckRequestTypeEnumdesired_cooker_hob_front_left_state,
+  CSRRestActuatorGetValueAckRequestTypeEnumcooker_hob_back_middle_state,
+  CSRRestActuatorGetValueAckRequestTypeEnumdesired_cooker_hob_back_middle_state,
+  CSRRestActuatorGetValueAckRequestTypeEnumcooker_hob_front_middle_state,
+  CSRRestActuatorGetValueAckRequestTypeEnumdesired_cooker_hob_front_middle_state,
+  CSRRestActuatorGetValueAckRequestTypeEnumcooker_hob_back_right_state,
+  CSRRestActuatorGetValueAckRequestTypeEnumdesired_cooker_hob_back_right_state,
+  CSRRestActuatorGetValueAckRequestTypeEnumcooker_hob_front_right_state,
+  CSRRestActuatorGetValueAckRequestTypeEnumdesired_cooker_hob_front_right_state,
+  CSRRestActuatorGetValueAckRequestTypeEnumdesired_wakeup_alarm_time,
+  CSRRestActuatorGetValueAckRequestTypeEnumdesired_second_wakeup_alarm_time,
+  CSRRestActuatorGetValueAckRequestTypeEnumpassive_infrared_state,
+  CSRRestActuatorGetValueAckRequestTypeEnumwater_flowing,
+  CSRRestActuatorGetValueAckRequestTypeEnumdesired_water_flow,
+  CSRRestActuatorGetValueAckRequestTypeEnumaudio_level,
+  CSRRestActuatorGetValueAckRequestTypeEnumdesired_audio_level,
+  CSRRestActuatorGetValueAckRequestTypeEnumfan_speed,
+  CSRRestActuatorGetValueAckRequestTypeEnumdesired_fan_speed,
+  CSRRestActuatorGetValueAckRequestTypeEnumwind_speed,
+  CSRRestActuatorGetValueAckRequestTypeEnumwind_speed_gust,
+  CSRRestActuatorGetValueAckRequestTypeEnumwind_direction,
+  CSRRestActuatorGetValueAckRequestTypeEnumwind_direction_gust,
+  CSRRestActuatorGetValueAckRequestTypeEnumrain_fall_last_hour,
+  CSRRestActuatorGetValueAckRequestTypeEnumrain_fall_today,
+  CSRRestActuatorGetValueAckRequestTypeEnumbarometric_pressure,
+  CSRRestActuatorGetValueAckRequestTypeEnumsoil_temperature,
+  CSRRestActuatorGetValueAckRequestTypeEnumsoil_moisure,
+  CSRRestActuatorGetValueAckRequestTypeEnumwindow_cover_position,
+  CSRRestActuatorGetValueAckRequestTypeEnumdesired_window_cover_position,
+  CSRRestActuatorGetValueAckRequestTypeEnumgeneric_1_byte,
+  CSRRestActuatorGetValueAckRequestTypeEnumgeneric_2_byte,
+  CSRRestActuatorGetValueAckRequestTypeEnumgeneric_1_byte_typed,
+  CSRRestActuatorGetValueAckRequestTypeEnumgeneric_2_byte_typed,
+  CSRRestActuatorGetValueAckRequestTypeEnumgeneric_3_byte_typed,
+
+};
+
+
+
+/*!
+    Actuator type. The Type field is a 16-bit value that determines the actuator type.
+*/
+@property(nonatomic) CSRRestActuatorGetValueAckRequestTypeEnum type;
+
+/*!
+  Constructs instance of CSRRestActuatorGetValueAckRequest
+
+  @param type - (CSRRestActuatorGetValueAckRequestTypeEnum) Actuator type. The Type field is a 16-bit value that determines the actuator type.
+  
+  @return instance of CSRRestActuatorGetValueAckRequest
+*/
+- (id) initWithtype: (CSRRestActuatorGetValueAckRequestTypeEnum) type;
+       
+
+@end

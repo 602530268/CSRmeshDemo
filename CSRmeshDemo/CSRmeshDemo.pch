@@ -1,0 +1,61 @@
+//
+// Copyright 2015 Qualcomm Technologies International, Ltd.
+//
+
+
+#ifndef CSRmeshDemo_CSRmeshDemo_pch
+#define CSRmeshDemo_CSRmeshDemo_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <CoreBluetooth/CoreBluetooth.h>
+#import <CoreData/CoreData.h>
+
+#define CONFIG      @"CONFIG"
+#define LIGHT       @"LIGHT"
+#define POWER       @"POWER"
+#define GROUP       @"GROUP"
+#define SWITCH      @"SWITCH"
+#define ATTENTION   @"ATTENTION"
+#define FIRMWARE    @"FIRMWARE"
+#define DATA        @"DATA"
+#define BEARER      @"BEARER"
+#define PING        @"PING"
+#define BATTERY     @"BATTERY"
+#define SENSOR      @"SENSOR"
+#define ACTUATOR    @"ACTUATOR"
+
+//csr
+#import "CSRConstants.h"
+#import "CSRAppStateManager.h"
+#import "CSRDevicesManager.h"
+#import "CSRDatabaseManager.h"
+#import "CSRmeshManager.h"
+
+#import "CSRDeviceEntity.h"
+#import "CSRmeshDevice.h"
+#import "CSRmeshArea.h"
+#import "CSRUtilities.h"
+
+#import "CSRmeshStyleKit.h"
+
+//base
+#import "BaseContaints.h"
+#import "BaseCommond.h"
+#import "BaseConfig.h"
+
+//vender
+#import "Masonry.h"
+#import "MBProgressHUD.h"
+
+//my manager
+#import "CommandManager.h"
+#import "UDManager.h"
+#import "DeviceDataHandle.h"
+#import "MBProgressHUDManager.h"
+#import "CClogManager.h"
+
+#endif

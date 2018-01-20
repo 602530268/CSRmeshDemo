@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Device1_UUID</key>
+	<string>8C8831CB-EA68-3A09-5FEA-080854F80AE6</string>
+	<key>DeviceName1</key>
+	<string>SJUI Test 1</string>
+	<key>AuthCode1</key>
+	<string>disco</string>
+	<key>AreaName1</key>
+	<string>TestArea</string>
+</dict>
+</plist>

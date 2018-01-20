@@ -1,0 +1,13 @@
+*.swp
+*~
+# no tmp directory
+tmp
+.DS_Store
+.ignore
+Pods
+Podsfile.lock
+*.xcuserstate
+*.xcbkptlist
+*.xcsettings
+*.xcscheme
+

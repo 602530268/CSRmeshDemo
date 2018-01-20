@@ -1,0 +1,450 @@
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "0Vk-U1-t12"; */
+"0Vk-U1-t12.text" = "Label";
+
+/* Class = "UILabel"; text = "IP"; ObjectID = "0yD-WB-zvN"; */
+"0yD-WB-zvN.text" = "IP";
+
+/* Class = "UILabel"; text = "Place name"; ObjectID = "1xf-U4-JN0"; */
+"1xf-U4-JN0.text" = "Place name";
+
+/* Class = "UIViewController"; title = "LightViewController"; ObjectID = "263-8s-0DW"; */
+"263-8s-0DW.title" = "LightViewController";
+
+/* Class = "UINavigationController"; title = "DevicesListNavigationController"; ObjectID = "35v-dp-I4j"; */
+"35v-dp-I4j.title" = "DevicesListNavigationController";
+
+/* Class = "UINavigationController"; title = "SettingsNavigationController"; ObjectID = "3aB-bX-09p"; */
+"3aB-bX-09p.title" = "SettingsNavigationController";
+
+/* Class = "UINavigationController"; title = "GroupsSelectionNavigationController"; ObjectID = "3cp-IW-KFO"; */
+"3cp-IW-KFO.title" = "GroupsSelectionNavigationController";
+
+/* Class = "UITextField"; placeholder = "Place name"; ObjectID = "3hb-yA-wAo"; */
+"3hb-yA-wAo.placeholder" = "Place name";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "3zK-6C-Inu"; */
+"3zK-6C-Inu.text" = "Label";
+
+/* Class = "UINavigationController"; title = "DeviceDetailsNavigationController"; ObjectID = "4NV-gJ-Rwn"; */
+"4NV-gJ-Rwn.title" = "DeviceDetailsNavigationController";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "5Dj-jo-eSS"; */
+"5Dj-jo-eSS.text" = "Label";
+
+/* Class = "UILabel"; text = "Summer house"; ObjectID = "5Sf-B9-4tE"; */
+"5Sf-B9-4tE.text" = "Summer house";
+
+/* Class = "UILabel"; text = "Connecting gateway "; ObjectID = "5YI-GK-zKU"; */
+"5YI-GK-zKU.text" = "Connecting gateway ";
+
+/* Class = "UILabel"; text = "Control your house"; ObjectID = "5cO-zA-yhG"; */
+"5cO-zA-yhG.text" = "Control your house";
+
+/* Class = "UILabel"; text = "Gateway name"; ObjectID = "5vL-VV-ViB"; */
+"5vL-VV-ViB.text" = "Gateway name";
+
+/* Class = "UILabel"; text = "desired"; ObjectID = "6Ia-f2-ORO"; */
+"6Ia-f2-ORO.text" = "desired";
+
+/* Class = "UIBarButtonItem"; title = "ADD"; ObjectID = "7M3-ee-gZI"; */
+"7M3-ee-gZI.title" = "ADD";
+
+/* Class = "UILabel"; text = "Battery"; ObjectID = "7la-eC-9pc"; */
+"7la-eC-9pc.text" = "Battery";
+
+/* Class = "UILabel"; text = "CSRmesh"; ObjectID = "7ld-pi-D2c"; */
+"7ld-pi-D2c.text" = "CSRmesh";
+
+/* Class = "UILabel"; text = "Show password"; ObjectID = "86Q-Xi-cC9"; */
+"86Q-Xi-cC9.text" = "Show password";
+
+/* Class = "UINavigationItem"; title = "Areas"; ObjectID = "8CI-Vn-Xl5"; */
+"8CI-Vn-Xl5.title" = "Areas";
+
+/* Class = "UITextField"; placeholder = "Network key"; ObjectID = "8cL-Yc-49h"; */
+"8cL-Yc-49h.placeholder" = "Network key";
+
+/* Class = "UILabel"; text = "Cloud Host Name"; ObjectID = "AL9-hv-aPE"; */
+"AL9-hv-aPE.text" = "Cloud Host Name";
+
+/* Class = "UILabel"; text = "Set Short Code"; ObjectID = "B0p-6r-yBm"; */
+"B0p-6r-yBm.text" = "Set Short Code";
+
+/* Class = "UIButton"; normalTitle = "NEXT"; ObjectID = "BWe-8p-RZf"; */
+"BWe-8p-RZf.normalTitle" = "NEXT";
+
+/* Class = "UISearchBar"; placeholder = "search for areas"; ObjectID = "Bit-dg-NOf"; */
+"Bit-dg-NOf.placeholder" = "search for areas";
+
+/* Class = "UISegmentedControl"; Cvh-vv-uKe.segmentTitles[0] = "First"; ObjectID = "Cvh-vv-uKe"; */
+"Cvh-vv-uKe.segmentTitles[0]" = "First";
+
+/* Class = "UISegmentedControl"; Cvh-vv-uKe.segmentTitles[1] = "Second"; ObjectID = "Cvh-vv-uKe"; */
+"Cvh-vv-uKe.segmentTitles[1]" = "Second";
+
+/* Class = "UILabel"; text = "Place name"; ObjectID = "D7P-TX-ssl"; */
+"D7P-TX-ssl.text" = "Place name";
+
+/* Class = "UILabel"; text = "Gateway name"; ObjectID = "DUs-Po-yDM"; */
+"DUs-Po-yDM.text" = "Gateway name";
+
+/* Class = "UILabel"; text = "COLOR"; ObjectID = "E1W-dq-NTF"; */
+"E1W-dq-NTF.text" = "COLOR";
+
+/* Class = "UILabel"; text = "Place name"; ObjectID = "EL2-Lm-6Mv"; */
+"EL2-Lm-6Mv.text" = "Place name";
+
+/* Class = "UIBarButtonItem"; title = "ADD"; ObjectID = "EQP-t9-b0w"; */
+"EQP-t9-b0w.title" = "ADD";
+
+/* Class = "UINavigationController"; title = "AreasDetailsNavigationController"; ObjectID = "EtK-04-HBK"; */
+"EtK-04-HBK.title" = "AreasDetailsNavigationController";
+
+/* Class = "UIButton"; normalTitle = "CANCEL"; ObjectID = "FbD-95-1EG"; */
+"FbD-95-1EG.normalTitle" = "CANCEL";
+
+/* Class = "UIButton"; normalTitle = "CANCEL"; ObjectID = "Gb3-8r-tvi"; */
+"Gb3-8r-tvi.normalTitle" = "CANCEL";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "GqQ-Ht-M75"; */
+"GqQ-Ht-M75.text" = "Label";
+
+/* Class = "UITextField"; text = "Gateway name"; ObjectID = "HBU-XM-OsR"; */
+"HBU-XM-OsR.text" = "Gateway name";
+
+/* Class = "UIButton"; normalTitle = "Scan again"; ObjectID = "HQy-tL-V6c"; */
+"HQy-tL-V6c.normalTitle" = "Scan again";
+
+/* Class = "UILabel"; text = "Device Name"; ObjectID = "Ha7-9A-43s"; */
+"Ha7-9A-43s.text" = "Device Name";
+
+/* Class = "UITextField"; placeholder = "MyTenantID"; ObjectID = "Hsf-wk-VTt"; */
+"Hsf-wk-VTt.placeholder" = "MyTenantID";
+
+/* Class = "UINavigationController"; title = "ActivitiesNavigationController"; ObjectID = "Huu-VZ-ugM"; */
+"Huu-VZ-ugM.title" = "ActivitiesNavigationController";
+
+/* Class = "UILabel"; text = "Device name"; ObjectID = "IBo-VX-30k"; */
+"IBo-VX-30k.text" = "Device name";
+
+/* Class = "UIButton"; normalTitle = "ENABLE LOCAL GATEWAY"; ObjectID = "JMv-IB-XQX"; */
+"JMv-IB-XQX.normalTitle" = "ENABLE LOCAL GATEWAY";
+
+/* Class = "UIViewController"; title = "LockViewController"; ObjectID = "JnE-AB-YQV"; */
+"JnE-AB-YQV.title" = "LockViewController";
+
+/* Class = "UIBarButtonItem"; title = "DELETE"; ObjectID = "Jo5-ki-sxy"; */
+"Jo5-ki-sxy.title" = "DELETE";
+
+/* Class = "UILabel"; text = "Network key"; ObjectID = "JyB-5k-wWc"; */
+"JyB-5k-wWc.text" = "Network key";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "K9k-DL-BJz"; */
+"K9k-DL-BJz.text" = "Title";
+
+/* Class = "UILabel"; text = "Tenant ID"; ObjectID = "KFe-z3-mDC"; */
+"KFe-z3-mDC.text" = "Tenant ID";
+
+/* Class = "UIButton"; normalTitle = "DELETE"; ObjectID = "Kqb-xS-5rE"; */
+"Kqb-xS-5rE.normalTitle" = "DELETE";
+
+/* Class = "UIButton"; normalTitle = "CANCEL"; ObjectID = "LUw-Ne-WmN"; */
+"LUw-Ne-WmN.normalTitle" = "CANCEL";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "LbT-bt-9hI"; */
+"LbT-bt-9hI.text" = "Label";
+
+/* Class = "UILabel"; text = "Gateway status"; ObjectID = "Lmt-hN-OQy"; */
+"Lmt-hN-OQy.text" = "Gateway status";
+
+/* Class = "UINavigationController"; title = "FavouritiesNavigationController"; ObjectID = "M6b-ao-JdF"; */
+"M6b-ao-JdF.title" = "FavouritiesNavigationController";
+
+/* Class = "UIButton"; accessibilityLabel = "menuSwitch"; ObjectID = "Mdg-BN-RHd"; */
+"Mdg-BN-RHd.accessibilityLabel" = "menuSwitch";
+
+/* Class = "UISearchBar"; placeholder = "Search for places"; ObjectID = "NS6-ZI-eVK"; */
+"NS6-ZI-eVK.placeholder" = "Search for places";
+
+/* Class = "UISegmentedControl"; NZA-Jr-6CV.segmentTitles[0] = "Activities"; ObjectID = "NZA-Jr-6CV"; */
+"NZA-Jr-6CV.segmentTitles[0]" = "Activities";
+
+/* Class = "UISegmentedControl"; NZA-Jr-6CV.segmentTitles[1] = "Devices & Areas"; ObjectID = "NZA-Jr-6CV"; */
+"NZA-Jr-6CV.segmentTitles[1]" = "Devices & Areas";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "OIO-gF-YUx"; */
+"OIO-gF-YUx.text" = "Label";
+
+/* Class = "UIBarButtonItem"; title = "ADD"; ObjectID = "OYw-b2-KSv"; */
+"OYw-b2-KSv.title" = "ADD";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Oba-Sj-GCd"; */
+"Oba-Sj-GCd.text" = "Label";
+
+/* Class = "UIBarButtonItem"; title = "ADD"; ObjectID = "P3V-Fx-8kU"; */
+"P3V-Fx-8kU.title" = "ADD";
+
+/* Class = "UILabel"; text = "ICON"; ObjectID = "PdX-ft-iP0"; */
+"PdX-ft-iP0.text" = "ICON";
+
+/* Class = "UINavigationItem"; title = "Settings"; ObjectID = "PzW-Ha-W4l"; */
+"PzW-Ha-W4l.title" = "Settings";
+
+/* Class = "UIBarButtonItem"; title = "ADD"; ObjectID = "QAh-qh-0ZG"; */
+"QAh-qh-0ZG.title" = "ADD";
+
+/* Class = "UIButton"; normalTitle = "RGB"; ObjectID = "QPw-Dc-vZ8"; */
+"QPw-Dc-vZ8.normalTitle" = "RGB";
+
+/* Class = "UINavigationItem"; title = "Activities"; ObjectID = "QXv-sn-tUZ"; */
+"QXv-sn-tUZ.title" = "Activities";
+
+/* Class = "UIButton"; normalTitle = "NEXT"; ObjectID = "RAW-Gc-Efn"; */
+"RAW-Gc-Efn.normalTitle" = "NEXT";
+
+/* Class = "UILabel"; text = "Device name"; ObjectID = "RRp-nb-ZQx"; */
+"RRp-nb-ZQx.text" = "Device name";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "RpZ-yt-b8j"; */
+"RpZ-yt-b8j.text" = "Label";
+
+/* Class = "UITextField"; placeholder = "CloudHostName (no http)"; ObjectID = "RuA-WB-Btp"; */
+"RuA-WB-Btp.placeholder" = "CloudHostName (no http)";
+
+/* Class = "UINavigationController"; title = "AreasMainNavigationController"; ObjectID = "SNh-YV-SdP"; */
+"SNh-YV-SdP.title" = "AreasMainNavigationController";
+
+/* Class = "UILabel"; text = "Sign into"; ObjectID = "SRT-8K-60P"; */
+"SRT-8K-60P.text" = "Sign into";
+
+/* Class = "UILabel"; text = "Progress :"; ObjectID = "UCa-mM-vcW"; */
+"UCa-mM-vcW.text" = "Progress :";
+
+/* Class = "UILabel"; text = "+ Action title"; ObjectID = "UXV-1f-LDd"; */
+"UXV-1f-LDd.text" = "+ Action title";
+
+/* Class = "UILabel"; text = "Mesh ID"; ObjectID = "VZt-vu-oaR"; */
+"VZt-vu-oaR.text" = "Mesh ID";
+
+/* Class = "UIViewController"; title = "TemperatureViewController"; ObjectID = "VlP-8Q-YIX"; */
+"VlP-8Q-YIX.title" = "TemperatureViewController";
+
+/* Class = "UINavigationController"; title = "DevicesSelectionNavigationController"; ObjectID = "Vyh-6Y-nt2"; */
+"Vyh-6Y-nt2.title" = "DevicesSelectionNavigationController";
+
+/* Class = "UILabel"; text = "Device Name"; ObjectID = "W19-Zv-UpK"; */
+"W19-Zv-UpK.text" = "Device Name";
+
+/* Class = "UINavigationItem"; title = "Associated gateways"; ObjectID = "W96-v7-DAo"; */
+"W96-v7-DAo.title" = "Associated gateways";
+
+/* Class = "UINavigationItem"; title = "Developer options"; ObjectID = "WAU-jZ-xsO"; */
+"WAU-jZ-xsO.title" = "Developer options";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "WNF-Tn-Icv"; */
+"WNF-Tn-Icv.normalTitle" = "Cancel";
+
+/* Class = "UINavigationItem"; title = "Area"; ObjectID = "WR6-Eo-sbd"; */
+"WR6-Eo-sbd.title" = "Area";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Wib-Oh-ob7"; */
+"Wib-Oh-ob7.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "CANCEL"; ObjectID = "Wlc-uk-Y2V"; */
+"Wlc-uk-Y2V.normalTitle" = "CANCEL";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "X7l-Me-Cg7"; */
+"X7l-Me-Cg7.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "XmR-Hc-W6I"; */
+"XmR-Hc-W6I.text" = "Label";
+
+/* Class = "UILabel"; text = "IP"; ObjectID = "Xtm-oT-eBX"; */
+"Xtm-oT-eBX.text" = "IP";
+
+/* Class = "UILabel"; text = "TITLE"; ObjectID = "XxQ-id-eHB"; */
+"XxQ-id-eHB.text" = "TITLE";
+
+/* Class = "UINavigationController"; title = "ManagePlacesNavigationController"; ObjectID = "Y2U-sh-wRi"; */
+"Y2U-sh-wRi.title" = "ManagePlacesNavigationController";
+
+/* Class = "UINavigationController"; title = "AboutNavigationController"; ObjectID = "Yzu-gR-XYT"; */
+"Yzu-gR-XYT.title" = "AboutNavigationController";
+
+/* Class = "UILabel"; text = "Qualcomm Technologies International Ltd"; ObjectID = "ZK4-0n-Ebh"; */
+"ZK4-0n-Ebh.text" = "Qualcomm Technologies International Ltd";
+
+/* Class = "UINavigationItem"; title = "Users"; ObjectID = "a8M-eT-V1S"; */
+"a8M-eT-V1S.title" = "Users";
+
+/* Class = "UILabel"; text = "—"; ObjectID = "a9L-Ao-btA"; */
+"a9L-Ao-btA.text" = "—";
+
+/* Class = "UIBarButtonItem"; title = "DELETE"; ObjectID = "aRi-bI-ua1"; */
+"aRi-bI-ua1.title" = "DELETE";
+
+/* Class = "UILabel"; text = "CSRmesh"; ObjectID = "cY2-bz-JHH"; */
+"cY2-bz-JHH.text" = "CSRmesh";
+
+/* Class = "UILabel"; text = "Favourite"; ObjectID = "cZ5-Qj-TBA"; */
+"cZ5-Qj-TBA.text" = "Favourite";
+
+/* Class = "UITextField"; placeholder = "MyPlaceID"; ObjectID = "dgh-kf-QeW"; */
+"dgh-kf-QeW.placeholder" = "MyPlaceID";
+
+/* Class = "UILabel"; text = "Area Name"; ObjectID = "ebI-kD-ROJ"; */
+"ebI-kD-ROJ.text" = "Area Name";
+
+/* Class = "UISearchBar"; placeholder = "Search for devices"; ObjectID = "ehd-zM-4QE"; */
+"ehd-zM-4QE.placeholder" = "Search for devices";
+
+/* Class = "UILabel"; text = "—"; ObjectID = "f12-pB-AHd"; */
+"f12-pB-AHd.text" = "—";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "fBb-Do-zdT"; */
+"fBb-Do-zdT.text" = "Label";
+
+/* Class = "UINavigationItem"; title = "Favourites"; ObjectID = "fFs-xD-BBb"; */
+"fFs-xD-BBb.title" = "Favourites";
+
+/* Class = "UIButton"; normalTitle = "CANCEL"; ObjectID = "fj8-uU-A8G"; */
+"fj8-uU-A8G.normalTitle" = "CANCEL";
+
+/* Class = "UIBarButtonItem"; title = "CONNECT"; ObjectID = "g1c-iO-PZc"; */
+"g1c-iO-PZc.title" = "CONNECT";
+
+/* Class = "UILabel"; text = "Control your house"; ObjectID = "g8g-aV-r9t"; */
+"g8g-aV-r9t.text" = "Control your house";
+
+/* Class = "UITextField"; placeholder = "MyMeshID"; ObjectID = "gUK-Dv-Vey"; */
+"gUK-Dv-Vey.placeholder" = "MyMeshID";
+
+/* Class = "UINavigationItem"; title = "Select Devices"; ObjectID = "iU0-pf-fIU"; */
+"iU0-pf-fIU.title" = "Select Devices";
+
+/* Class = "UINavigationController"; title = "EditPlacesNavigationController"; ObjectID = "jN9-2e-T71"; */
+"jN9-2e-T71.title" = "EditPlacesNavigationController";
+
+/* Class = "UIBarButtonItem"; title = "Save"; ObjectID = "jSA-Re-2Kc"; */
+"jSA-Re-2Kc.title" = "Save";
+
+/* Class = "UILabel"; text = "Firmware Version"; ObjectID = "k11-Fg-cl5"; */
+"k11-Fg-cl5.text" = "Firmware Version";
+
+/* Class = "UINavigationItem"; title = "Edit place"; ObjectID = "m3l-5k-nhd"; */
+"m3l-5k-nhd.title" = "Edit place";
+
+/* Class = "UILabel"; text = "Security"; ObjectID = "mKv-Qu-tKe"; */
+"mKv-Qu-tKe.text" = "Security";
+
+/* Class = "UILabel"; text = "App version 2.1"; ObjectID = "mN5-ac-IHr"; */
+"mN5-ac-IHr.text" = "App version 2.1";
+
+/* Class = "UILabel"; text = "Place ID"; ObjectID = "me5-xL-uWZ"; */
+"me5-xL-uWZ.text" = "Place ID";
+
+/* Class = "UILabel"; text = "Select channel"; ObjectID = "nC4-H9-Ebx"; */
+"nC4-H9-Ebx.text" = "Select channel";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "ned-MR-Y7b"; */
+"ned-MR-Y7b.text" = "Label";
+
+/* Class = "UILabel"; text = "TITLE"; ObjectID = "ntz-Wv-uig"; */
+"ntz-Wv-uig.text" = "TITLE";
+
+/* Class = "UISearchBar"; placeholder = "Search for areas"; ObjectID = "ny8-PJ-D0z"; */
+"ny8-PJ-D0z.placeholder" = "Search for areas";
+
+/* Class = "UINavigationItem"; title = "About"; ObjectID = "o4k-Lv-AbM"; */
+"o4k-Lv-AbM.title" = "About";
+
+/* Class = "UIBarButtonItem"; title = "ASSOCIATE"; ObjectID = "ouw-Co-Cab"; */
+"ouw-Co-Cab.title" = "ASSOCIATE";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "pRn-QT-fpg"; */
+"pRn-QT-fpg.text" = "Label";
+
+/* Class = "UILabel"; text = "UUID"; ObjectID = "pW0-io-d1A"; */
+"pW0-io-d1A.text" = "UUID";
+
+/* Class = "UITextField"; accessibilityLabel = "areaTitle"; ObjectID = "qEO-FH-mDt"; */
+"qEO-FH-mDt.accessibilityLabel" = "areaTitle";
+
+/* Class = "UITextField"; text = "A"; ObjectID = "qEO-FH-mDt"; */
+"qEO-FH-mDt.text" = "A";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "qNl-KB-0DZ"; */
+"qNl-KB-0DZ.normalTitle" = "Button";
+
+/* Class = "UITextField"; text = "Device name"; ObjectID = "qaC-p0-Mcz"; */
+"qaC-p0-Mcz.text" = "Device name";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "qjw-9g-1OR"; */
+"qjw-9g-1OR.text" = "Label";
+
+/* Class = "UILabel"; text = "Enter OTAU"; ObjectID = "s5k-MS-2y6"; */
+"s5k-MS-2y6.text" = "Enter OTAU";
+
+/* Class = "UINavigationController"; title = "DeveloperOptionsNavigationController"; ObjectID = "s8t-SM-Gjn"; */
+"s8t-SM-Gjn.title" = "DeveloperOptionsNavigationController";
+
+/* Class = "UIButton"; normalTitle = "ENABLE CLOUD"; ObjectID = "sYy-Z5-oQF"; */
+"sYy-Z5-oQF.normalTitle" = "ENABLE CLOUD";
+
+/* Class = "UINavigationController"; title = "UsersNavigationController"; ObjectID = "tNH-2x-0VU"; */
+"tNH-2x-0VU.title" = "UsersNavigationController";
+
+/* Class = "UIButton"; normalTitle = "LOGOUT"; ObjectID = "tbH-MN-PCN"; */
+"tbH-MN-PCN.normalTitle" = "LOGOUT";
+
+/* Class = "UITextField"; placeholder = "Short code"; ObjectID = "tsl-Qb-hM4"; */
+"tsl-Qb-hM4.placeholder" = "Short code";
+
+/* Class = "UITextField"; placeholder = "Authorisation code"; ObjectID = "tti-vI-IPF"; */
+"tti-vI-IPF.placeholder" = "Authorisation code";
+
+/* Class = "UIBarButtonItem"; title = "ADD"; ObjectID = "u2H-FG-Hho"; */
+"u2H-FG-Hho.title" = "ADD";
+
+/* Class = "UILabel"; text = "Owner name"; ObjectID = "udb-7W-FbF"; */
+"udb-7W-FbF.text" = "Owner name";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "ujO-8Q-dbI"; */
+"ujO-8Q-dbI.text" = "Label";
+
+/* Class = "UILabel"; text = "Association steps information..."; ObjectID = "vEH-sL-XdS"; */
+"vEH-sL-XdS.text" = "Association steps information...";
+
+/* Class = "UIBarButtonItem"; title = "DELETE"; ObjectID = "wlA-ZL-LKX"; */
+"wlA-ZL-LKX.title" = "DELETE";
+
+/* Class = "UILabel"; text = "Association"; ObjectID = "x4L-1I-b5u"; */
+"x4L-1I-b5u.text" = "Association";
+
+/* Class = "UINavigationItem"; title = "Select gateway"; ObjectID = "xQE-zG-pfF"; */
+"xQE-zG-pfF.title" = "Select gateway";
+
+/* Class = "UILabel"; text = "Attention"; ObjectID = "xki-Gu-aH0"; */
+"xki-Gu-aH0.text" = "Attention";
+
+/* Class = "UILabel"; text = "If your device has been provided with an authorisation code, you can type it in here.\nOtherwise you can skip this step by pressing 'Skip'."; ObjectID = "xl4-OW-LtO"; */
+"xl4-OW-LtO.text" = "If your device has been provided with an authorisation code, you can type it in here.\nOtherwise you can skip this step by pressing 'Skip'.";
+
+/* Class = "UILabel"; text = "My Place"; ObjectID = "xsG-N7-b2g"; */
+"xsG-N7-b2g.text" = "My Place";
+
+/* Class = "UILabel"; text = "actual"; ObjectID = "yKt-KS-CzN"; */
+"yKt-KS-CzN.text" = "actual";
+
+/* Class = "UINavigationItem"; title = "Groups"; ObjectID = "yXe-xl-ecL"; */
+"yXe-xl-ecL.title" = "Groups";
+
+/* Class = "UIButton"; normalTitle = "Manage places"; ObjectID = "z53-HT-E1c"; */
+"z53-HT-E1c.normalTitle" = "Manage places";
+
+/* Class = "UIBarButtonItem"; title = "ASSOCIATE"; ObjectID = "zaa-1X-FUM"; */
+"zaa-1X-FUM.title" = "ASSOCIATE";
+
+/* Class = "UILabel"; text = "Device name"; ObjectID = "zcx-p6-ZhP"; */
+"zcx-p6-ZhP.text" = "Device name";

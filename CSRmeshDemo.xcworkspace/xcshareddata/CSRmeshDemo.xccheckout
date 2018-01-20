@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>19B370A0-F163-42BF-9848-4AC804E37396</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CSRmeshDemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C8D88092CF87B1907B4D86A938FBB882B78E3F46</key>
+		<string>ssh://mobileappsm:7999/imd/ios_mesh_demo.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CSRmeshDemo.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C8D88092CF87B1907B4D86A938FBB882B78E3F46</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://mobileappsm:7999/imd/ios_mesh_demo.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C8D88092CF87B1907B4D86A938FBB882B78E3F46</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C8D88092CF87B1907B4D86A938FBB882B78E3F46</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CSRmeshDemo</string>
+		</dict>
+	</array>
+</dict>
+</plist>

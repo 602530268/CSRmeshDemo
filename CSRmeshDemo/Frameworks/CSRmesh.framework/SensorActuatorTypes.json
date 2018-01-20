@@ -1,0 +1,528 @@
+{
+  "Copyright" : "Copyright 2016 Qualcomm Technologies International, Ltd.",
+  "types" : {
+    "boolean" : {
+      "type" : "unsigned_int",
+      "length" : 1,
+      "enumeration" : {
+        "False" : 0,
+        "True" : 1
+      }
+    },
+    "transaction_id" : {
+      "type" : "unsigned_int",
+      "length" : 1
+    },
+    "power_state" : {
+      "type" : "unsigned_int",
+      "length" : 1,
+      "enumeration" : {
+        "Off" : 0,
+        "On" : 1,
+        "Standby" : 2,
+        "OnFromStandby" : 3
+      }
+    },
+    "device_information" : {
+      "type" : "unsigned_int",
+      "length" : 1,
+      "enumeration" : {
+        "UUID_low" : 0,
+        "UUID_high" : 1,
+        "Model_low" : 2,
+        "Model_high" : 3,
+        "VID_PID_Version" : 4,
+        "Appearance" : 5,
+        "LastETag" : 6
+      }
+    },
+    "battery_state" : {
+      "type" : "unsigned_int",
+      "length" : 1,
+      "bits" : {
+        "powering_device" : 0,
+        "battery_charging" : 1,
+        "external_power" : 2,
+        "service_required" : 3,
+        "replace_battery" : 4
+      }
+    },
+    "key_properties" : {
+      "type" : "unsigned_int",
+      "length" : 2,
+      "enumeration" : {
+        "Administrator" : 0,
+        "User" : 1,
+        "Guest" : 2,
+        "RelayOnly" : 3
+      }
+    },
+    "gregorian_year" : {
+      "type" : "unsigned_int",
+      "length" : 2,
+      "minimum" : 1582
+    },
+    "month_of_year" : {
+      "type" : "unsigned_int",
+      "length" : 1,
+      "enumeration" : {
+        "Unknown" : 0,
+        "January" : 1,
+        "February" : 2,
+        "March" : 3,
+        "April" : 4,
+        "May" : 5,
+        "June" : 6,
+        "July" : 7,
+        "August" : 8,
+        "September" : 9,
+        "October" : 10,
+        "November" : 11,
+        "December" : 12
+      }
+    },
+    "day_of_month" : {
+      "type" : "unsigned_int",
+      "length" : 1,
+      "enumeration" : {
+        "unknown" : 0
+      },
+      "minimum" : 0,
+      "maximum" : 31
+    },
+    "hour_of_day" : {
+      "type" : "unsigned_int",
+      "length" : 1,
+      "enumeration" : {
+        "unknown" : 0
+      },
+      "minimum" : 0,
+      "maximum" : 23
+    },
+    "minute_of_hour" : {
+      "type" : "unsigned_int",
+      "length" : 1,
+      "enumeration" : {
+        "unknown" : 0
+      },
+      "minimum" : 0,
+      "maximum" : 59
+    },
+    "minute_of_week" : {
+      "type" : "unsigned_int",
+      "length" : 2,
+      "enumeration" : {
+        "unknown" : 0
+      },
+      "minimum" : 0,
+      "maximum" : 10079
+    },
+    "second_of_minute" : {
+      "type" : "unsigned_int",
+      "length" : 1,
+      "enumeration" : {
+        "unknown" : 0
+      },
+      "minimum" : 0,
+      "maximum" : 59
+    },
+    "side_effect_bitfield" : {
+      "type" : "unsigned_int",
+      "length" : 2,
+      "bits" : {
+        "light" : 0,
+        "audio" : 1,
+        "movement" : 2,
+        "stationary" : 3,
+        "human" : 4
+      }
+    },
+    "bearer_bitfield" : {
+      "type" : "unsigned_int",
+      "length" : 2,
+      "bits" : {
+        "le_advertising" : 0,
+        "le_gatt_server" : 1,
+        "udp_ip_4" : 2,
+        "udp_ip_6" : 3,
+        "tcp_ip" : 4,
+        "wifi_beacon_bearer" : 5
+      }
+    },
+    "fixed_degrees" : {
+      "type" : "signed_int",
+      "length" : 4,
+      "binary_exponent" : -23
+    },
+    "timer_mode" : {
+      "type" : "unsigned_int",
+      "length" : 1,
+      "enumeration" : {
+        "programming" : 0,
+        "active" : 1,
+        "partly_random" : 2,
+        "completely_random" : 3
+      }
+    },
+    "dhms_interval" : {
+      "type" : "unsigned_int",
+      "length" : 1,
+      "bitfield" : {
+        "0b00xxxxxx" : "seconds",
+        "0b01xxxxxx" : "minutes",
+        "0b10xxxxxx" : "hours",
+        "0b11xxxxxx" : "days",
+        "0bxxNNNNNN" : "value"
+      }
+    }
+  },
+  "sensor_type" : {
+    "type" : "unsigned_int",
+    "length" : 2,
+    "enumeration" : {
+      "unknown" : 0,
+      "internal_air_temperature" : 1,
+      "external_air_temperature" : 2,
+      "desired_air_temperature" : 3,
+      "internal_humidity" : 4,
+      "external_humidity" : 5,
+      "external_dewpoint" : 6,
+      "internal_door" : 7,
+      "external_door" : 8,
+      "internal_window" : 9,
+      "external_window" : 10,
+      "solar_energy" : 11,
+      "number_of_activations" : 12,
+      "fridge_temperature" : 13,
+      "desired_fridge_temperature" : 14,
+      "freezer_temperature" : 15,
+      "desired_freezer_temperature" : 16,
+      "oven_temperature" : 17,
+      "desired_oven_temperature" : 18,
+      "seat_occupied" : 19,
+      "washing_machine_state" : 20,
+      "dish_washer_state" : 21,
+      "clothes_dryer_state" : 22,
+      "toaster_state" : 23,
+      "carbon_dioxide" : 24,
+      "carbon_monoxide" : 25,
+      "smoke" : 26,
+      "water_level" : 27,
+      "hot_water_temperature" : 28,
+      "cold_water_temperature" : 29,
+      "desired_water_temperature" : 30,
+      "cooker_hob_back_left_state" : 31,
+      "desired_cooker_hob_back_left_state" : 32,
+      "cooker_hob_front_left_state" : 33,
+      "desired_cooker_hob_front_left_state" : 34,
+      "cooker_hob_back_middle_state" : 35,
+      "desired_cooker_hob_back_middle_state" : 36,
+      "cooker_hob_front_middle_state" : 37,
+      "desired_cooker_hob_front_middle_state" : 38,
+      "cooker_hob_back_right_state" : 39,
+      "desired_cooker_hob_back_right_state" : 40,
+      "cooker_hob_front_right_state" : 41,
+      "desired_cooker_hob_front_right_state" : 42,
+      "desired_wakeup_alarm_time" : 43,
+      "desired_second_wakeup_alarm_time" : 44,
+      "passive_infrared_state" : 45,
+      "water_flowing" : 46,
+      "desired_water_flow" : 47,
+      "audio_level" : 48,
+      "desired_audio_level" : 49,
+      "fan_speed" : 50,
+      "desired_fan_speed" : 51,
+      "wind_speed" : 52,
+      "wind_speed_gust" : 53,
+      "wind_direction" : 54,
+      "wind_direction_gust" : 55,
+      "rain_fall_last_hour" : 56,
+      "rain_fall_today" : 57,
+      "barometric_pressure" : 58,
+      "soil_temperature" : 59,
+      "soil_moisure" : 60,
+      "window_cover_position" : 61,
+      "desired_window_cover_position" : 62,
+      "generic_1_byte" : 63,
+      "generic_2_byte" : 64
+    }
+  },
+  "sensor_type_formats" : {
+    "internal_air_temperature" : "temperature_kelvin",
+    "external_air_temperature" : "temperature_kelvin_range",
+    "desired_air_temperature" : "temperature_kelvin",
+    "internal_door" : "door_state",
+    "external_door" : "door_state",
+    "internal_window" : "window_state",
+    "external_window" : "window_state",
+    "solar_energy" : "watts_per_square_metre",
+    "fan_speed" : "percentage",
+    "desired_fan_speed" : "forward_backward",
+    "number_of_activations" : "16_bit_counter",
+    "fridge_temperature" : "temperature_kelvin",
+    "desired_fridge_temperature" : "temperature_kelvin",
+    "freezer_temperature" : "temperature_kelvin",
+    "desired_freezer_temperature" : "temperature_kelvin",
+    "oven_temperature" : "temperature_kelvin",
+    "desired_oven_temperature" : "temperature_kelvin",
+    "seat_occupied" : "seat_state",
+    "washing_machine_state" : "appliance_state",
+    "dish_washer_state" : "appliance_state",
+    "clothes_dryer_state" : "appliance_state",
+    "toaster_state" : "appliance_state",
+    "carbon_dioxide" : "parts_per_million",
+    "carbon_monoxide" : "parts_per_million",
+    "smoke" : "micrograms_per_cubic_metre",
+    "water_level" : "percentage",
+    "hot_water_temperature" : "temperature_kelvin",
+    "cold_water_temperature" : "temperature_kelvin",
+    "desired_water_temperature" : "temperature_kelvin",
+    "cooker_hob_back_left_state" : "cooker_hob_state",
+    "desired_cooker_hob_back_left_state" : "cooker_hob_state",
+    "cooker_hob_front_left_state" : "cooker_hob_state",
+    "desired_cooker_hob_front_left_state" : "cooker_hob_state",
+    "cooker_hob_back_middle_state" : "cooker_hob_state",
+    "desired_cooker_hob_back_middle_state" : "cooker_hob_state",
+    "cooker_hob_front_middle_state" : "cooker_hob_state",
+    "desired_cooker_hob_front_middle_state" : "cooker_hob_state",
+    "cooker_hob_back_right_state" : "cooker_hob_state",
+    "desired_cooker_hob_back_right_state" : "cooker_hob_state",
+    "cooker_hob_front_right_state" : "cooker_hob_state",
+    "desired_cooker_hob_front_right_state" : "cooker_hob_state",
+    "desired_wakeup_alarm_time" : "minutes_of_the_day",
+    "desired_second_wakeup_alarm_time" : "minutes_of_the_day",
+    "passive_infrared_state" : "movement_state",
+    "water_flowing" : "water_flow_rate",
+    "desired_water_flow" : "water_flow_rate",
+    "audio_level" : "decibel",
+    "desired_audio_level" : "decibel",
+    "internal_humidity" : "percentage",
+    "external_humidity" : "percentage",
+    "wind_direction" : "direction",
+    "wind_direction_gust" : "direction",
+    "barometric_pressure" : "air_pressure",
+    "soil_temperature" : "temperature_kelvin",
+    "rain_fall_today" : "millimetres",
+    "rain_fall_last_hour" : "millimetres",
+    "soil_moisure" : "percentage",
+    "wind_speed" : "centimetres_per_second",
+    "wind_speed_gust" : "centimetres_per_second",
+    "external_dewpoint" : "temperature_kelvin",
+    "window_cover_position" : "percentage",
+    "desired_window_cover_position" : "percentage",
+    "generic_1_byte" : "generic_1_byte",
+    "generic_2_byte" : "generic_2_byte"
+  },
+  "sensor_value_formats" : {
+    "temperature_kelvin" : {
+      "type" : "unsigned_int",
+      "length" : 2,
+      "unit" : "kelvin",
+      "multiplier" : 0.03125,
+      "comment" : "1/32th of a Kelvin",
+      "conversion" : {
+        "Celsius" : "v/16.0-273.15",
+        "Fahrenheit" : "(v/16.0-273.15)*1.8+32.0"
+      }
+    },
+    "temperature_kelvin_range" : {
+      "length" : 4,
+      "compound_type" : {
+        "lower" : "temperature_kelvin",
+        "upper" : "temperature_kelvin"
+      },
+      "order" : ["lower", "upper"]
+    },
+    "door_state" : {
+      "type" : "unsigned_int",
+      "length" : 1,
+      "enumeration" : {
+        "closed_locked" : 0,
+        "closed_unlocked" : 1,
+        "open_unlocked" : 2
+      }
+    },
+    "forward_backward" : {
+      "type" : "unsigned_int",
+      "length" : 1,
+      "enumeration" : {
+        "forward" : 1,
+        "backwards" : 2
+      }
+    },
+    "window_state" : {
+      "type" : "unsigned_int",
+      "length" : 1,
+      "enumeration" : {
+        "closed_secure" : 0,
+        "closed_insecure" : 1,
+        "open_secure" : 2,
+        "open_insecure" : 3
+      }
+    },
+    "minutes_of_the_day" : {
+      "type" : "unsigned_int",
+      "length" : 2,
+      "minimum" : 0,
+      "maximum" : 1439,
+      "comment" : "Number of minutes in to the day - e.g. 900 minutes of the day = 15:00"
+    },
+    "percentage" : {
+      "type" : "unsigned_int",
+      "length" : 1,
+      "minimum" : 0,
+      "maximum" : 100,
+      "comment" : "Percentage from 0% to 100%"
+    },
+    "micrograms_per_cubic_metre" : {
+      "type" : "unsigned_int",
+      "length" : 2,
+      "comment" : "Concentration of typically pollution in micrograms per cubic metre"
+    },
+    "appliance_state" : {
+      "type" : "unsigned_int",
+      "length" : 1,
+      "enumeration" : {
+        "idle" : 0,
+        "heating_up" : 1,
+        "cooling_down" : 2,
+        "pre_wash" : 3,
+        "washing" : 4,
+        "post_wash" : 5
+      }
+    },
+    "parts_per_million" : {
+      "type" : "unsigned_int",
+      "length" : 2,
+      "multiplier" : 0.000001,
+      "comment" : "Parts per million"
+    },
+    "movement_state" : {
+      "type" : "unsigned_int",
+      "length" : 1,
+      "enumeration" : {
+        "no_movement" : 0,
+        "movement_detected" : 1
+      },
+      "comment" : "PIR Sensor of similar states"
+    },
+    "seat_state" : {
+      "type" : "unsigned_int",
+      "length" : 1,
+      "enumeration" : {
+        "empty" : 0,
+        "occupied" : 1,
+        "continuously_occupied" : 2
+      },
+      "comment" : "Did something sit on this seat - or has something been on this seat for more than 24 hours and therefore is continuously occupied"
+    },
+    "watts_per_square_metre" : {
+      "type" : "unsigned_int",
+      "length" : 2,
+      "comment" : "Typically used to measure solar energy landing in a location"
+    },
+    "cooker_hob_state" : {
+      "type" : "unsigned_int",
+      "length" : 1,
+      "enumeration" : {
+        "off_cold" : 0,
+        "level_1" : 1,
+        "level_2" : 2,
+        "level_3" : 3,
+        "level_4" : 4,
+        "level_5" : 5,
+        "level_6" : 6,
+        "level_7" : 7,
+        "level_8" : 8,
+        "level_9" : 9,
+        "off_hot" : 10
+      }
+    },
+    "16_bit_counter" : {
+      "type" : "unsigned_int",
+      "length" : 2,
+      "minimum" : 0,
+      "maximum" : 65534,
+      "comment" : "used to count things"
+    },
+    "water_flow_rate" : {
+      "type" : "unsigned_int",
+      "length" : 2,
+      "minimum" : 0,
+      "maximum" : 65534,
+      "comment" : "Measured in millilitres per second",
+      "conversion" : {
+        "(US) gallons per minute" : "v*0.01585",
+        "litres per minute" : "v*0.06"
+      }
+    },
+    "decibel" : {
+      "type" : "unsigned_int",
+      "length" : 1,
+      "comment" : "typically used for audio volume levels"
+    },
+    "direction" : {
+      "type" : "unsigned_int",
+      "length" : 1,
+      "multiplier" : 1.40625,
+      "enumeration" : {
+        "north" : 0,
+        "north_of_north_east" : 16,
+        "north_east" : 32,
+        "east_of_north_east" : 48,
+        "east" : 64,
+        "east_of_south_east" : 80,
+        "south_east" : 96,
+        "south_of_south_east" : 112,
+        "south" : 128,
+        "south_of_south_west" : 144,
+        "south_west" : 160,
+        "west_of_south_west" : 176,
+        "west" : 192,
+        "west_of_north_west" : 208,
+        "north_west" : 224,
+        "north_of_north_west" : 240
+      }
+    },
+    "air_pressure" : {
+      "type" : "unsigned_int",
+      "length" : 2,
+      "comment" : "Air Pressure in hectopascals",
+      "conversion" : {
+        "bar" : "v*100.0",
+        "millibar" : "v",
+        "atmosphere" : "v*0.00098692326671601",
+        "psi" : "v*0.014503773773022",
+        "mmHg" : "v*0.75006375541921",
+        "inHg" : "v*0.0295299830714"
+      }
+    },
+    "centimetres_per_second" : {
+      "type" : "unsigned_int",
+      "length" : 2,
+      "multiplier" : 0.01,
+      "conversion" : {
+        "m/s" : "v*0.01",
+        "kmph" : "v*0.036",
+        "mph" : "v*0.022369362920544",
+        "knot" : "v*0.019438444924574"
+      },
+      "comment" : "Measurement of speed - typically used for wind speeds - actually measured in centimetres per second"
+    },
+    "millimetres" : {
+      "type" : "unsigned_int",
+      "length" : 2,
+      "comment" : "Measurement of distance - typically used for rainfall - see http://en.wikipedia.org/wiki/List_of_weather_records#Rain"
+    },
+    "generic_1_byte" : {
+      "type" : "unsigned_int",
+      "length" : 1,
+      "comment" : "Generic sensor type of 1 byte"
+    },
+    "generic_2_byte" : {
+      "type" : "unsigned_int",
+      "length" : 2,
+      "comment" : "Generic sensor type of 2 byte"
+    }
+  }
+}

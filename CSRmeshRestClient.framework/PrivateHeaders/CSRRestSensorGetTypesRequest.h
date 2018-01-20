@@ -1,0 +1,110 @@
+/*!
+    Copyright [2015] Qualcomm Technologies International, Ltd.
+*/
+/* Note: this is an auto-generated file. */
+
+
+#import <Foundation/Foundation.h>
+#import "CSRRestBaseObject.h"
+
+
+/*!
+    Request Object for GetTypes API for the Sensor model
+*/
+
+@interface CSRRestSensorGetTypesRequest : CSRRestBaseObject
+
+
+/*!
+    The FirstType field is a 16-bit unsigned integer that determines the first Type that can be returned in the corresponding SENSOR_TYPES message.
+*/
+ typedef NS_OPTIONS(NSInteger, CSRRestSensorGetTypesRequestFirstTypeEnum) {
+  CSRRestSensorGetTypesRequestFirstTypeEnumunknown,
+  CSRRestSensorGetTypesRequestFirstTypeEnuminternal_air_temperature,
+  CSRRestSensorGetTypesRequestFirstTypeEnumexternal_air_temperature,
+  CSRRestSensorGetTypesRequestFirstTypeEnumdesired_air_temperature,
+  CSRRestSensorGetTypesRequestFirstTypeEnuminternal_humidity,
+  CSRRestSensorGetTypesRequestFirstTypeEnumexternal_humidity,
+  CSRRestSensorGetTypesRequestFirstTypeEnumexternal_dewpoint,
+  CSRRestSensorGetTypesRequestFirstTypeEnuminternal_door,
+  CSRRestSensorGetTypesRequestFirstTypeEnumexternal_door,
+  CSRRestSensorGetTypesRequestFirstTypeEnuminternal_window,
+  CSRRestSensorGetTypesRequestFirstTypeEnumexternal_window,
+  CSRRestSensorGetTypesRequestFirstTypeEnumsolar_energy,
+  CSRRestSensorGetTypesRequestFirstTypeEnumnumber_of_activations,
+  CSRRestSensorGetTypesRequestFirstTypeEnumfridge_temperature,
+  CSRRestSensorGetTypesRequestFirstTypeEnumdesired_fridge_temperature,
+  CSRRestSensorGetTypesRequestFirstTypeEnumfreezer_temperature,
+  CSRRestSensorGetTypesRequestFirstTypeEnumdesired_freezer_temperature,
+  CSRRestSensorGetTypesRequestFirstTypeEnumoven_temperature,
+  CSRRestSensorGetTypesRequestFirstTypeEnumdesired_oven_temperature,
+  CSRRestSensorGetTypesRequestFirstTypeEnumseat_occupied,
+  CSRRestSensorGetTypesRequestFirstTypeEnumwashing_machine_state,
+  CSRRestSensorGetTypesRequestFirstTypeEnumdish_washer_state,
+  CSRRestSensorGetTypesRequestFirstTypeEnumclothes_dryer_state,
+  CSRRestSensorGetTypesRequestFirstTypeEnumtoaster_state,
+  CSRRestSensorGetTypesRequestFirstTypeEnumcarbon_dioxide,
+  CSRRestSensorGetTypesRequestFirstTypeEnumcarbon_monoxide,
+  CSRRestSensorGetTypesRequestFirstTypeEnumsmoke,
+  CSRRestSensorGetTypesRequestFirstTypeEnumwater_level,
+  CSRRestSensorGetTypesRequestFirstTypeEnumhot_water_temperature,
+  CSRRestSensorGetTypesRequestFirstTypeEnumcold_water_temperature,
+  CSRRestSensorGetTypesRequestFirstTypeEnumdesired_water_temperature,
+  CSRRestSensorGetTypesRequestFirstTypeEnumcooker_hob_back_left_state,
+  CSRRestSensorGetTypesRequestFirstTypeEnumdesired_cooker_hob_back_left_state,
+  CSRRestSensorGetTypesRequestFirstTypeEnumcooker_hob_front_left_state,
+  CSRRestSensorGetTypesRequestFirstTypeEnumdesired_cooker_hob_front_left_state,
+  CSRRestSensorGetTypesRequestFirstTypeEnumcooker_hob_back_middle_state,
+  CSRRestSensorGetTypesRequestFirstTypeEnumdesired_cooker_hob_back_middle_state,
+  CSRRestSensorGetTypesRequestFirstTypeEnumcooker_hob_front_middle_state,
+  CSRRestSensorGetTypesRequestFirstTypeEnumdesired_cooker_hob_front_middle_state,
+  CSRRestSensorGetTypesRequestFirstTypeEnumcooker_hob_back_right_state,
+  CSRRestSensorGetTypesRequestFirstTypeEnumdesired_cooker_hob_back_right_state,
+  CSRRestSensorGetTypesRequestFirstTypeEnumcooker_hob_front_right_state,
+  CSRRestSensorGetTypesRequestFirstTypeEnumdesired_cooker_hob_front_right_state,
+  CSRRestSensorGetTypesRequestFirstTypeEnumdesired_wakeup_alarm_time,
+  CSRRestSensorGetTypesRequestFirstTypeEnumdesired_second_wakeup_alarm_time,
+  CSRRestSensorGetTypesRequestFirstTypeEnumpassive_infrared_state,
+  CSRRestSensorGetTypesRequestFirstTypeEnumwater_flowing,
+  CSRRestSensorGetTypesRequestFirstTypeEnumdesired_water_flow,
+  CSRRestSensorGetTypesRequestFirstTypeEnumaudio_level,
+  CSRRestSensorGetTypesRequestFirstTypeEnumdesired_audio_level,
+  CSRRestSensorGetTypesRequestFirstTypeEnumfan_speed,
+  CSRRestSensorGetTypesRequestFirstTypeEnumdesired_fan_speed,
+  CSRRestSensorGetTypesRequestFirstTypeEnumwind_speed,
+  CSRRestSensorGetTypesRequestFirstTypeEnumwind_speed_gust,
+  CSRRestSensorGetTypesRequestFirstTypeEnumwind_direction,
+  CSRRestSensorGetTypesRequestFirstTypeEnumwind_direction_gust,
+  CSRRestSensorGetTypesRequestFirstTypeEnumrain_fall_last_hour,
+  CSRRestSensorGetTypesRequestFirstTypeEnumrain_fall_today,
+  CSRRestSensorGetTypesRequestFirstTypeEnumbarometric_pressure,
+  CSRRestSensorGetTypesRequestFirstTypeEnumsoil_temperature,
+  CSRRestSensorGetTypesRequestFirstTypeEnumsoil_moisure,
+  CSRRestSensorGetTypesRequestFirstTypeEnumwindow_cover_position,
+  CSRRestSensorGetTypesRequestFirstTypeEnumdesired_window_cover_position,
+  CSRRestSensorGetTypesRequestFirstTypeEnumgeneric_1_byte,
+  CSRRestSensorGetTypesRequestFirstTypeEnumgeneric_2_byte,
+  CSRRestSensorGetTypesRequestFirstTypeEnumgeneric_1_byte_typed,
+  CSRRestSensorGetTypesRequestFirstTypeEnumgeneric_2_byte_typed,
+  CSRRestSensorGetTypesRequestFirstTypeEnumgeneric_3_byte_typed,
+
+};
+
+
+
+/*!
+    The FirstType field is a 16-bit unsigned integer that determines the first Type that can be returned in the corresponding SENSOR_TYPES message.
+*/
+@property(nonatomic) CSRRestSensorGetTypesRequestFirstTypeEnum firstType;
+
+/*!
+  Constructs instance of CSRRestSensorGetTypesRequest
+
+  @param firstType - (CSRRestSensorGetTypesRequestFirstTypeEnum) The FirstType field is a 16-bit unsigned integer that determines the first Type that can be returned in the corresponding SENSOR_TYPES message.
+  
+  @return instance of CSRRestSensorGetTypesRequest
+*/
+- (id) initWithfirstType: (CSRRestSensorGetTypesRequestFirstTypeEnum) firstType;
+       
+
+@end

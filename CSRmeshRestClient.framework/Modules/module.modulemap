@@ -1,0 +1,6 @@
+framework module CSRmeshRestClient {
+  umbrella header "CSRmeshRestClient.h"
+
+  export *
+  module * { export * }
+}

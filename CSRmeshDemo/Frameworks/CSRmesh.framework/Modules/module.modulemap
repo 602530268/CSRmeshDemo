@@ -1,0 +1,6 @@
+framework module CSRmesh {
+  umbrella header "CSRmesh.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,42 @@
+
+/* Class = "WKInterfaceLabel"; text = "Label"; ObjectID = "739-gV-dgg"; */
+"739-gV-dgg.text" = "Label";
+
+/* Class = "WKInterfaceController"; title = "Favourites"; ObjectID = "AgC-eL-Hgc"; */
+"AgC-eL-Hgc.title" = "Favourites";
+
+/* Class = "WKInterfaceLabel"; text = "Label"; ObjectID = "Byn-DM-PPr"; */
+"Byn-DM-PPr.text" = "Label";
+
+/* Class = "WKInterfaceLabel"; text = "Label"; ObjectID = "HPO-cB-TZj"; */
+"HPO-cB-TZj.text" = "Label";
+
+/* Class = "WKInterfaceController"; title = "< Favourites"; ObjectID = "Ib2-B1-Roq"; */
+"Ib2-B1-Roq.title" = "< Favourites";
+
+/* Class = "WKInterfaceLabel"; text = "Connection Lost"; ObjectID = "K8e-0F-ukS"; */
+"K8e-0F-ukS.text" = "Connection Lost";
+
+/* Class = "WKInterfaceLabel"; text = "desired"; ObjectID = "QnS-8X-jbP"; */
+"QnS-8X-jbP.text" = "desired";
+
+/* Class = "WKInterfaceLabel"; text = "Alert Label"; ObjectID = "XkS-y5-khE"; */
+"XkS-y5-khE.text" = "Alert Label";
+
+/* Class = "WKInterfaceController"; title = "< Favourites"; ObjectID = "Yer-u9-SzG"; */
+"Yer-u9-SzG.title" = "< Favourites";
+
+/* Class = "WKInterfaceLabel"; text = "actual"; ObjectID = "bKO-JN-0fX"; */
+"bKO-JN-0fX.text" = "actual";
+
+/* Class = "WKInterfaceController"; title = "< Favourites"; ObjectID = "bj6-U7-3Ze"; */
+"bj6-U7-3Ze.title" = "< Favourites";
+
+/* Class = "WKInterfaceController"; title = "< Favourites"; ObjectID = "jTY-Bt-tln"; */
+"jTY-Bt-tln.title" = "< Favourites";
+
+/* Class = "WKInterfaceLabel"; text = "Door Open"; ObjectID = "uNw-Ac-v2y"; */
+"uNw-Ac-v2y.text" = "Door Open";
+
+/* Class = "WKInterfaceLabel"; text = "Label"; ObjectID = "zmc-TK-l2m"; */
+"zmc-TK-l2m.text" = "Label";

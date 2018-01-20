@@ -1,0 +1,192 @@
+/*!
+    Copyright [2015] Qualcomm Technologies International, Ltd.
+*/
+/* Note: this is an auto-generated file. */
+
+
+#import <Foundation/Foundation.h>
+#import "CSRRestBaseObject.h"
+
+
+/*!
+    Request Object for ReadValue API for the Sensor model
+*/
+
+@interface CSRRestSensorReadValueRequest : CSRRestBaseObject
+
+
+/*!
+    Sensor type. The Type field is a 16-bit unsigned integer that determines the sensor type being read.
+*/
+ typedef NS_OPTIONS(NSInteger, CSRRestSensorReadValueRequestTypeEnum) {
+  CSRRestSensorReadValueRequestTypeEnumunknown,
+  CSRRestSensorReadValueRequestTypeEnuminternal_air_temperature,
+  CSRRestSensorReadValueRequestTypeEnumexternal_air_temperature,
+  CSRRestSensorReadValueRequestTypeEnumdesired_air_temperature,
+  CSRRestSensorReadValueRequestTypeEnuminternal_humidity,
+  CSRRestSensorReadValueRequestTypeEnumexternal_humidity,
+  CSRRestSensorReadValueRequestTypeEnumexternal_dewpoint,
+  CSRRestSensorReadValueRequestTypeEnuminternal_door,
+  CSRRestSensorReadValueRequestTypeEnumexternal_door,
+  CSRRestSensorReadValueRequestTypeEnuminternal_window,
+  CSRRestSensorReadValueRequestTypeEnumexternal_window,
+  CSRRestSensorReadValueRequestTypeEnumsolar_energy,
+  CSRRestSensorReadValueRequestTypeEnumnumber_of_activations,
+  CSRRestSensorReadValueRequestTypeEnumfridge_temperature,
+  CSRRestSensorReadValueRequestTypeEnumdesired_fridge_temperature,
+  CSRRestSensorReadValueRequestTypeEnumfreezer_temperature,
+  CSRRestSensorReadValueRequestTypeEnumdesired_freezer_temperature,
+  CSRRestSensorReadValueRequestTypeEnumoven_temperature,
+  CSRRestSensorReadValueRequestTypeEnumdesired_oven_temperature,
+  CSRRestSensorReadValueRequestTypeEnumseat_occupied,
+  CSRRestSensorReadValueRequestTypeEnumwashing_machine_state,
+  CSRRestSensorReadValueRequestTypeEnumdish_washer_state,
+  CSRRestSensorReadValueRequestTypeEnumclothes_dryer_state,
+  CSRRestSensorReadValueRequestTypeEnumtoaster_state,
+  CSRRestSensorReadValueRequestTypeEnumcarbon_dioxide,
+  CSRRestSensorReadValueRequestTypeEnumcarbon_monoxide,
+  CSRRestSensorReadValueRequestTypeEnumsmoke,
+  CSRRestSensorReadValueRequestTypeEnumwater_level,
+  CSRRestSensorReadValueRequestTypeEnumhot_water_temperature,
+  CSRRestSensorReadValueRequestTypeEnumcold_water_temperature,
+  CSRRestSensorReadValueRequestTypeEnumdesired_water_temperature,
+  CSRRestSensorReadValueRequestTypeEnumcooker_hob_back_left_state,
+  CSRRestSensorReadValueRequestTypeEnumdesired_cooker_hob_back_left_state,
+  CSRRestSensorReadValueRequestTypeEnumcooker_hob_front_left_state,
+  CSRRestSensorReadValueRequestTypeEnumdesired_cooker_hob_front_left_state,
+  CSRRestSensorReadValueRequestTypeEnumcooker_hob_back_middle_state,
+  CSRRestSensorReadValueRequestTypeEnumdesired_cooker_hob_back_middle_state,
+  CSRRestSensorReadValueRequestTypeEnumcooker_hob_front_middle_state,
+  CSRRestSensorReadValueRequestTypeEnumdesired_cooker_hob_front_middle_state,
+  CSRRestSensorReadValueRequestTypeEnumcooker_hob_back_right_state,
+  CSRRestSensorReadValueRequestTypeEnumdesired_cooker_hob_back_right_state,
+  CSRRestSensorReadValueRequestTypeEnumcooker_hob_front_right_state,
+  CSRRestSensorReadValueRequestTypeEnumdesired_cooker_hob_front_right_state,
+  CSRRestSensorReadValueRequestTypeEnumdesired_wakeup_alarm_time,
+  CSRRestSensorReadValueRequestTypeEnumdesired_second_wakeup_alarm_time,
+  CSRRestSensorReadValueRequestTypeEnumpassive_infrared_state,
+  CSRRestSensorReadValueRequestTypeEnumwater_flowing,
+  CSRRestSensorReadValueRequestTypeEnumdesired_water_flow,
+  CSRRestSensorReadValueRequestTypeEnumaudio_level,
+  CSRRestSensorReadValueRequestTypeEnumdesired_audio_level,
+  CSRRestSensorReadValueRequestTypeEnumfan_speed,
+  CSRRestSensorReadValueRequestTypeEnumdesired_fan_speed,
+  CSRRestSensorReadValueRequestTypeEnumwind_speed,
+  CSRRestSensorReadValueRequestTypeEnumwind_speed_gust,
+  CSRRestSensorReadValueRequestTypeEnumwind_direction,
+  CSRRestSensorReadValueRequestTypeEnumwind_direction_gust,
+  CSRRestSensorReadValueRequestTypeEnumrain_fall_last_hour,
+  CSRRestSensorReadValueRequestTypeEnumrain_fall_today,
+  CSRRestSensorReadValueRequestTypeEnumbarometric_pressure,
+  CSRRestSensorReadValueRequestTypeEnumsoil_temperature,
+  CSRRestSensorReadValueRequestTypeEnumsoil_moisure,
+  CSRRestSensorReadValueRequestTypeEnumwindow_cover_position,
+  CSRRestSensorReadValueRequestTypeEnumdesired_window_cover_position,
+  CSRRestSensorReadValueRequestTypeEnumgeneric_1_byte,
+  CSRRestSensorReadValueRequestTypeEnumgeneric_2_byte,
+  CSRRestSensorReadValueRequestTypeEnumgeneric_1_byte_typed,
+  CSRRestSensorReadValueRequestTypeEnumgeneric_2_byte_typed,
+  CSRRestSensorReadValueRequestTypeEnumgeneric_3_byte_typed,
+
+};
+
+/*!
+    Sensor type. The Type field is a 16-bit unsigned integer that determines the second sensor type being read. This field is optional.
+*/
+ typedef NS_OPTIONS(NSInteger, CSRRestSensorReadValueRequestType2Enum) {
+  CSRRestSensorReadValueRequestType2Enumunknown,
+  CSRRestSensorReadValueRequestType2Enuminternal_air_temperature,
+  CSRRestSensorReadValueRequestType2Enumexternal_air_temperature,
+  CSRRestSensorReadValueRequestType2Enumdesired_air_temperature,
+  CSRRestSensorReadValueRequestType2Enuminternal_humidity,
+  CSRRestSensorReadValueRequestType2Enumexternal_humidity,
+  CSRRestSensorReadValueRequestType2Enumexternal_dewpoint,
+  CSRRestSensorReadValueRequestType2Enuminternal_door,
+  CSRRestSensorReadValueRequestType2Enumexternal_door,
+  CSRRestSensorReadValueRequestType2Enuminternal_window,
+  CSRRestSensorReadValueRequestType2Enumexternal_window,
+  CSRRestSensorReadValueRequestType2Enumsolar_energy,
+  CSRRestSensorReadValueRequestType2Enumnumber_of_activations,
+  CSRRestSensorReadValueRequestType2Enumfridge_temperature,
+  CSRRestSensorReadValueRequestType2Enumdesired_fridge_temperature,
+  CSRRestSensorReadValueRequestType2Enumfreezer_temperature,
+  CSRRestSensorReadValueRequestType2Enumdesired_freezer_temperature,
+  CSRRestSensorReadValueRequestType2Enumoven_temperature,
+  CSRRestSensorReadValueRequestType2Enumdesired_oven_temperature,
+  CSRRestSensorReadValueRequestType2Enumseat_occupied,
+  CSRRestSensorReadValueRequestType2Enumwashing_machine_state,
+  CSRRestSensorReadValueRequestType2Enumdish_washer_state,
+  CSRRestSensorReadValueRequestType2Enumclothes_dryer_state,
+  CSRRestSensorReadValueRequestType2Enumtoaster_state,
+  CSRRestSensorReadValueRequestType2Enumcarbon_dioxide,
+  CSRRestSensorReadValueRequestType2Enumcarbon_monoxide,
+  CSRRestSensorReadValueRequestType2Enumsmoke,
+  CSRRestSensorReadValueRequestType2Enumwater_level,
+  CSRRestSensorReadValueRequestType2Enumhot_water_temperature,
+  CSRRestSensorReadValueRequestType2Enumcold_water_temperature,
+  CSRRestSensorReadValueRequestType2Enumdesired_water_temperature,
+  CSRRestSensorReadValueRequestType2Enumcooker_hob_back_left_state,
+  CSRRestSensorReadValueRequestType2Enumdesired_cooker_hob_back_left_state,
+  CSRRestSensorReadValueRequestType2Enumcooker_hob_front_left_state,
+  CSRRestSensorReadValueRequestType2Enumdesired_cooker_hob_front_left_state,
+  CSRRestSensorReadValueRequestType2Enumcooker_hob_back_middle_state,
+  CSRRestSensorReadValueRequestType2Enumdesired_cooker_hob_back_middle_state,
+  CSRRestSensorReadValueRequestType2Enumcooker_hob_front_middle_state,
+  CSRRestSensorReadValueRequestType2Enumdesired_cooker_hob_front_middle_state,
+  CSRRestSensorReadValueRequestType2Enumcooker_hob_back_right_state,
+  CSRRestSensorReadValueRequestType2Enumdesired_cooker_hob_back_right_state,
+  CSRRestSensorReadValueRequestType2Enumcooker_hob_front_right_state,
+  CSRRestSensorReadValueRequestType2Enumdesired_cooker_hob_front_right_state,
+  CSRRestSensorReadValueRequestType2Enumdesired_wakeup_alarm_time,
+  CSRRestSensorReadValueRequestType2Enumdesired_second_wakeup_alarm_time,
+  CSRRestSensorReadValueRequestType2Enumpassive_infrared_state,
+  CSRRestSensorReadValueRequestType2Enumwater_flowing,
+  CSRRestSensorReadValueRequestType2Enumdesired_water_flow,
+  CSRRestSensorReadValueRequestType2Enumaudio_level,
+  CSRRestSensorReadValueRequestType2Enumdesired_audio_level,
+  CSRRestSensorReadValueRequestType2Enumfan_speed,
+  CSRRestSensorReadValueRequestType2Enumdesired_fan_speed,
+  CSRRestSensorReadValueRequestType2Enumwind_speed,
+  CSRRestSensorReadValueRequestType2Enumwind_speed_gust,
+  CSRRestSensorReadValueRequestType2Enumwind_direction,
+  CSRRestSensorReadValueRequestType2Enumwind_direction_gust,
+  CSRRestSensorReadValueRequestType2Enumrain_fall_last_hour,
+  CSRRestSensorReadValueRequestType2Enumrain_fall_today,
+  CSRRestSensorReadValueRequestType2Enumbarometric_pressure,
+  CSRRestSensorReadValueRequestType2Enumsoil_temperature,
+  CSRRestSensorReadValueRequestType2Enumsoil_moisure,
+  CSRRestSensorReadValueRequestType2Enumwindow_cover_position,
+  CSRRestSensorReadValueRequestType2Enumdesired_window_cover_position,
+  CSRRestSensorReadValueRequestType2Enumgeneric_1_byte,
+  CSRRestSensorReadValueRequestType2Enumgeneric_2_byte,
+  CSRRestSensorReadValueRequestType2Enumgeneric_1_byte_typed,
+  CSRRestSensorReadValueRequestType2Enumgeneric_2_byte_typed,
+  CSRRestSensorReadValueRequestType2Enumgeneric_3_byte_typed,
+
+};
+
+
+
+/*!
+    Sensor type. The Type field is a 16-bit unsigned integer that determines the sensor type being read.
+*/
+@property(nonatomic) CSRRestSensorReadValueRequestTypeEnum type;
+
+/*!
+    Sensor type. The Type field is a 16-bit unsigned integer that determines the second sensor type being read. This field is optional.
+*/
+@property(nonatomic) CSRRestSensorReadValueRequestType2Enum type2;
+
+/*!
+  Constructs instance of CSRRestSensorReadValueRequest
+
+  @param type - (CSRRestSensorReadValueRequestTypeEnum) Sensor type. The Type field is a 16-bit unsigned integer that determines the sensor type being read.
+  @param type2 - (CSRRestSensorReadValueRequestType2Enum) Sensor type. The Type field is a 16-bit unsigned integer that determines the second sensor type being read. This field is optional.
+  
+  @return instance of CSRRestSensorReadValueRequest
+*/
+- (id) initWithtype: (CSRRestSensorReadValueRequestTypeEnum) type     
+       type2: (CSRRestSensorReadValueRequestType2Enum) type2;
+       
+
+@end

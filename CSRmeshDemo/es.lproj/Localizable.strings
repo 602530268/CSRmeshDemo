@@ -1,0 +1,9 @@
+//
+// Copyright 2016 Qualcomm Technologies International, Ltd.
+//
+
+/* Common strings */
+
+"warning"                   =   "";
+"unknownError"              =   "";
+"internetUnavailbleAlert"   =   "";
